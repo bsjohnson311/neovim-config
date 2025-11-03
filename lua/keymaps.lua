@@ -12,3 +12,4 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 vim.keymap.set('n', '<leader>|', '<cmd>vsplit<CR>')
 vim.keymap.set('n', '<leader>\"', '<cmd>split<CR>')
+

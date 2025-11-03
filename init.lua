@@ -7,6 +7,7 @@ vim.g.have_nerd_font = false
 
 require("config.lazy")
 require("lazy").setup("plugins")
+require("after")
 
 require("options")
 require("keymaps")
