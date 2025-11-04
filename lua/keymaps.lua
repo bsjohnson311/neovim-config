@@ -15,4 +15,5 @@ vim.keymap.set('n', '<leader>\"', '<cmd>split<CR>')
 
 vim.keymap.set("n", "<leader>rn", "<cmd>set rnu!<CR>", { desc = "toggle relative number" })
 
-vim.keymap.set("n", "<leader>b", "<cmd>enew<CR>", { desc = "buffer new" })
+vim.keymap.set("n", "<leader>b", "<cmd>enew<CR>", { desc = "new buffer" })
+vim.keymap.set("n", "<leader>x", "<cmd>bd<CR>", { desc = "close buffer" })
