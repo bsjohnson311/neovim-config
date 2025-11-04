@@ -3,3 +3,4 @@ vim.keymap.set('n', '<leader>fa', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fz', builtin.live_grep, { desc = 'Telescope live grep' })
 vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fg', builtin.git_files, { desc = 'Telescope tracked files' })
+vim.keymap.set("n", "<leader>fm", "<cmd>Telescope marks<CR>", { desc = "Telescope find marks" })
