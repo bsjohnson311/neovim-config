@@ -1,3 +1,3 @@
 require("mason-lspconfig").setup {
-  ensure_installed = { "rust_hdl", "verible" },
+  ensure_installed = { "verible", "vhdl_ls" },
 }
