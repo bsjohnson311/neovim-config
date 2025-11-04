@@ -3,6 +3,9 @@
 -- Make line numbers default
 vim.o.number = true
 
+--Set relative line numbers
+vim.o.rnu = true
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
 
