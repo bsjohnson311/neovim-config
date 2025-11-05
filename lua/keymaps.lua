@@ -13,7 +13,11 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('n', '<leader>|', '<cmd>vsplit<CR>')
 vim.keymap.set('n', '<leader>\"', '<cmd>split<CR>')
 
-vim.keymap.set("n", "<leader>rn", "<cmd>set rnu!<CR>", { desc = "toggle relative number" })
+vim.keymap.set('n', "<leader>rn", "<cmd>set rnu!<CR>", { desc = "toggle relative number" })
 
-vim.keymap.set("n", "<leader>b", "<cmd>enew<CR>", { desc = "new buffer" })
-vim.keymap.set("n", "<leader>x", "<cmd>bd<CR>", { desc = "close buffer" })
+vim.keymap.set('n', "<leader>b", "<cmd>enew<CR>", { desc = "new buffer" })
+vim.keymap.set('n', "<leader>x", "<cmd>bd<CR>", { desc = "close buffer" })
+
+-- Paste over selection without yanking the replaced text
+vim.keymap.set({ 'n', 'v' }, "<leader>p", '"_dP')
+vim.keymap.set({ 'n', 'v' }, "<S-p>", '"_dP')
